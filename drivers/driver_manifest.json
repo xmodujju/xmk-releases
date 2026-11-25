@@ -1,0 +1,70 @@
+{
+  "manifestVersion": "1.0",
+  "name": "XMK External Driver Manifest",
+  "updatedAt": "2026-11-26",
+  "categories": [
+    {
+      "id": "HOOK",
+      "displayName": "HOOK (RTDev)",
+      "description": "High-performance netlink/ptrace memory trace driver",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "4.14": "RTDev/4.14.sh",
+        "4.19": "RTDev/4.19.sh",
+        "5.4": "RTDev/5.4.sh",
+        "5.10": "RTDev/5.10.sh",
+        "5.15": "RTDev/5.15.sh",
+        "6.1": "RTDev/6.1.sh",
+        "6.6": "RTDev/6.6.sh",
+        "6.12": "RTDev/6.12.sh"
+      },
+      "subVersions": {
+        "4.14.117": "RTDev/4.14.117.sh",
+        "4.14.141": "RTDev/4.14.141.sh",
+        "4.14.180": "RTDev/4.14.180.sh",
+        "4.14.186": "RTDev/4.14.186.sh",
+        "4.14.186b": "RTDev/4.14.186b.sh",
+        "4.14.186c": "RTDev/4.14.186c.sh",
+        "4.14.190": "RTDev/4.14.190.sh",
+        "4.19.81": "RTDev/4.19.81.sh",
+        "4.19.113": "RTDev/4.19.113.sh",
+        "4.19.157": "RTDev/4.19.157.sh",
+        "4.19.157b": "RTDev/4.19.157b.sh",
+        "4.19.157c": "RTDev/4.19.157c.sh",
+        "4.19.191": "RTDev/4.19.191.sh",
+        "4.19.191b": "RTDev/4.19.191b.sh",
+        "4.19.191c": "RTDev/4.19.191c.sh",
+        "5.4b": "RTDev/5.4b.sh",
+        "5.4c": "RTDev/5.4c.sh"
+      }
+    },
+    {
+      "id": "PARADISE",
+      "displayName": "PARADISE",
+      "description": "Kernel module (IOREMAP & HWBP) memory bridge",
+      "executionType": "ko.sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "5.10": "Paradise/5.10.ko.sh",
+        "5.10-Pixel": "Paradise/5.10-Pixel.ko.sh",
+        "5.15": "Paradise/5.15.ko.sh",
+        "5.15-Pixel": "Paradise/5.15-Pixel.ko.sh",
+        "6.1": "Paradise/6.1.ko.sh",
+        "6.6": "Paradise/6.6.ko.sh",
+        "6.12": "Paradise/6.12.ko.sh"
+      }
+    },
+    {
+      "id": "LDG KPM",
+      "displayName": "LDG KPM Driver v3.0",
+      "description": "KernelPatch / APatch module for zero-lag hardware execution",
+      "executionType": "kpm",
+      "stagedPath": "/data/local/tmp",
+      "file": "LdgDriver_3.0.kpm",
+      "kernels": {
+        "all": "LdgDriver_3.0.kpm"
+      }
+    }
+  ]
+}
