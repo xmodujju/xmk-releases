@@ -33,7 +33,7 @@ FT-BING/6.12.sh
 FT-BING/6.6.sh
 FT-BING/oppo4.19.81.sh
 FT-BING/oppoa92s4.14.186.sh
-LdgDriver_3.0.kpm
+KPM/LdgDriver_3.0.kpm
 Paradise/5.10.ko.sh
 Paradise/5.15.ko.sh
 Paradise/6.1.ko.sh

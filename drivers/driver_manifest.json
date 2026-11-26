@@ -23,9 +23,9 @@
       "description": "KernelPatch / APatch module for zero-lag hardware execution",
       "executionType": "kpm",
       "stagedPath": "/data/local/tmp",
-      "file": "LdgDriver_3.0.kpm",
+      "file": "KPM/LdgDriver_3.0.kpm",
       "kernels": {
-        "all": "LdgDriver_3.0.kpm"
+        "all": "KPM/LdgDriver_3.0.kpm"
       }
     }
   ]
