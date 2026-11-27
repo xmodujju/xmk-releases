@@ -1,8 +1,40 @@
 {
   "manifestVersion": "1.0",
   "name": "XMK External Driver Manifest",
-  "updatedAt": "2026-11-26",
+  "updatedAt": "2026-11-27",
   "categories": [
+    {
+      "id": "RT-DEV",
+      "displayName": "RT-DEV",
+      "description": "Ptrace-based kernel driver suite",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "4.9.186": "RT-DEV/4.9.186.sh",
+        "4.14.117": "RT-DEV/4.14.117.sh",
+        "4.14.180": "RT-DEV/4.14.180.sh",
+        "4.14.186": "RT-DEV/4.14.186.sh",
+        "4.14.186b": "RT-DEV/4.14.186b.sh",
+        "4.14.186c": "RT-DEV/4.14.186c.sh",
+        "4.14.186d": "RT-DEV/4.14.186d.sh",
+        "4.19.81": "RT-DEV/4.19.81.sh",
+        "4.19.113": "RT-DEV/4.19.113.sh",
+        "4.19.157": "RT-DEV/4.19.157.sh",
+        "4.19.157b": "RT-DEV/4.19.157b.sh",
+        "4.19.157c": "RT-DEV/4.19.157c.sh",
+        "4.19.191": "RT-DEV/4.19.191.sh",
+        "4.19.191b": "RT-DEV/4.19.191b.sh",
+        "4.19.191c": "RT-DEV/4.19.191c.sh",
+        "5.4": "RT-DEV/5.4.sh",
+        "5.4b": "RT-DEV/5.4b.sh",
+        "5.4c": "RT-DEV/5.4c.sh",
+        "5.4d": "RT-DEV/5.4d.sh",
+        "5.10": "RT-DEV/5.10.sh",
+        "5.15": "RT-DEV/5.15.sh",
+        "6.1": "RT-DEV/6.1.sh",
+        "6.6": "RT-DEV/6.6.sh"
+      }
+    },
     {
       "id": "PARADISE",
       "displayName": "PARADISE v1 & v2",
