@@ -99,7 +99,7 @@
     },
     {
       "id": "PARADISE",
-      "displayName": "PARADISE",
+      "displayName": "PARADISE v1",
       "description": "Kernel module (IOREMAP & HWBP) memory bridge",
       "executionType": "ko.sh",
       "stagedPath": "/data/local/tmp",
@@ -109,6 +109,16 @@
         "6.1": "Paradise/6.1.ko.sh",
         "6.6": "Paradise/6.6.ko.sh",
         "6.12": "Paradise/6.12.ko.sh"
+      }
+    },
+    {
+      "id": "PARADISE-V3",
+      "displayName": "PARADISE v3",
+      "description": "Paradise v3 All-in-One ARM64 Kernel Loader (5.10 - 6.18)",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "auto": "Paradise-v3/paradise-loader.sh"
       }
     },
     {
