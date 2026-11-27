@@ -79,4 +79,4 @@ Wind/Wind-6.1.sh
 Wind/Wind-6.12.sh
 Wind/Wind-6.18.sh
 Wind/Wind-6.6.sh
-Wind/Wind-drivers-Loading.sh
+Wind-v2/Wind-drivers-Loading.sh

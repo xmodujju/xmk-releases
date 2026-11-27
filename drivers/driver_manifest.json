@@ -133,8 +133,8 @@
     },
     {
       "id": "WIND",
-      "displayName": "WIND Driver",
-      "description": "Wind PTE and HWBP Driver suite",
+      "displayName": "WIND v1",
+      "description": "Wind v1 PTE and HWBP Driver suite",
       "executionType": "sh",
       "stagedPath": "/data/local/tmp",
       "kernels": {
@@ -143,8 +143,17 @@
         "6.1": "Wind/Wind-6.1.sh",
         "6.6": "Wind/Wind-6.6.sh",
         "6.12": "Wind/Wind-6.12.sh",
-        "6.18": "Wind/Wind-6.18.sh",
-        "loader": "Wind/Wind-drivers-Loading.sh"
+        "6.18": "Wind/Wind-6.18.sh"
+      }
+    },
+    {
+      "id": "WIND-V2",
+      "displayName": "WIND v2",
+      "description": "Wind v2 All-in-One ARM64 Native Kernel Loader (5.10 - 6.18)",
+      "executionType": "elf",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "auto": "Wind-v2/Wind-drivers-Loading.sh"
       }
     },
     {
