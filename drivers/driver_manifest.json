@@ -36,8 +36,70 @@
       }
     },
     {
+      "id": "FT-BING",
+      "displayName": "FT-BING 2.2.0",
+      "description": "High-speed kernel memory driver suite",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "4.9.186": "FT-BING/4.9.186.sh",
+        "4.14.117": "FT-BING/4.14.117.sh",
+        "4.14.141": "FT-BING/4.14.141.sh",
+        "4.14.141b": "FT-BING/4.14.141b.sh",
+        "4.14.180": "FT-BING/4.14.180.sh",
+        "4.14.180b": "FT-BING/4.14.180b.sh",
+        "4.14.186": "FT-BING/4.14.186.sh",
+        "4.14.186b": "FT-BING/4.14.186b.sh",
+        "4.14.186c": "FT-BING/4.14.186c.sh",
+        "4.14.186-Oppo": "FT-BING/oppoa92s4.14.186.sh",
+        "4.19.81": "FT-BING/4.19.81.sh",
+        "4.19.81-Oppo": "FT-BING/oppo4.19.81.sh",
+        "4.19.109": "FT-BING/4.19.109.sh",
+        "4.19.113": "FT-BING/4.19.113.sh",
+        "4.19.113b": "FT-BING/4.19.113b.sh",
+        "4.19.157": "FT-BING/4.19.157.sh",
+        "4.19.157b": "FT-BING/4.19.157b.sh",
+        "4.19.157-ColorOS": "FT-BING/4.19.157-ColorOS.sh",
+        "4.19.191": "FT-BING/4.19.191.sh",
+        "4.19.191-ColorOS": "FT-BING/4.19.191-ColorOS.sh",
+        "4.19.191b-ColorOS": "FT-BING/4.19.191b-ColorOS.sh",
+        "5.4.61": "FT-BING/5.4.61.sh",
+        "5.4.86": "FT-BING/5.4.86.sh",
+        "5.4.147": "FT-BING/5.4.147.sh",
+        "5.4.191-OnePlus": "FT-BING/5.4.191oneplus.sh",
+        "5.4.210-ColorOS": "FT-BING/5.4.210-ColorOS.sh",
+        "5.4.233": "FT-BING/5.4.233.sh",
+        "5.4.233-ColorOS": "FT-BING/5.4.233-ColorOS.sh",
+        "5.4.233-OnePlus": "FT-BING/5.4.233oneplus.sh",
+        "5.10": "FT-BING/5.10.sh",
+        "5.10.136": "FT-BING/5.10.136.sh",
+        "5.15": "FT-BING/5.15.sh",
+        "6.1": "FT-BING/6.1.sh",
+        "6.6": "FT-BING/6.6.sh",
+        "6.12": "FT-BING/6.12.sh"
+      }
+    },
+    {
+      "id": "RT-HOOK",
+      "displayName": "RT-HOOK 1.1",
+      "description": "Kernel hook and IOCTL bypass driver",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "5.4": "RT-HOOK/5.4.sh",
+        "5.4b": "RT-HOOK/5.4b.sh",
+        "5.4c": "RT-HOOK/5.4c.sh",
+        "5.10": "RT-HOOK/5.10.sh",
+        "5.15": "RT-HOOK/5.15.sh",
+        "6.1": "RT-HOOK/6.1.sh",
+        "6.6": "RT-HOOK/6.6.sh",
+        "6.12": "RT-HOOK/6.12.sh",
+        "6.18": "RT-HOOK/6.18.sh"
+      }
+    },
+    {
       "id": "PARADISE",
-      "displayName": "PARADISE v1 & v2",
+      "displayName": "PARADISE",
       "description": "Kernel module (IOREMAP & HWBP) memory bridge",
       "executionType": "ko.sh",
       "stagedPath": "/data/local/tmp",
@@ -47,6 +109,32 @@
         "6.1": "Paradise/6.1.ko.sh",
         "6.6": "Paradise/6.6.ko.sh",
         "6.12": "Paradise/6.12.ko.sh"
+      }
+    },
+    {
+      "id": "TWT",
+      "displayName": "TWT Driver",
+      "description": "TWT HWBP Kernel Loader",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "all": "TWT/TwTLoaderv1.56.sh"
+      }
+    },
+    {
+      "id": "WIND",
+      "displayName": "WIND Driver",
+      "description": "Wind PTE and HWBP Driver suite",
+      "executionType": "sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "5.10": "Wind/Wind-5.10.sh",
+        "5.15": "Wind/Wind-5.15.sh",
+        "6.1": "Wind/Wind-6.1.sh",
+        "6.6": "Wind/Wind-6.6.sh",
+        "6.12": "Wind/Wind-6.12.sh",
+        "6.18": "Wind/Wind-6.18.sh",
+        "loader": "Wind/Wind-drivers-Loading.sh"
       }
     },
     {

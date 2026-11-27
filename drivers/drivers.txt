@@ -9,12 +9,12 @@ FT-BING/4.14.186c.sh
 FT-BING/4.19.109.sh
 FT-BING/4.19.113.sh
 FT-BING/4.19.113b.sh
+FT-BING/4.19.157-ColorOS.sh
 FT-BING/4.19.157.sh
 FT-BING/4.19.157b.sh
-FT-BING/4.19.157-ColorOS.sh
+FT-BING/4.19.191-ColorOS.sh
 FT-BING/4.19.191.sh
 FT-BING/4.19.191b-ColorOS.sh
-FT-BING/4.19.191-ColorOS.sh
 FT-BING/4.19.81.sh
 FT-BING/4.9.186.sh
 FT-BING/5.10.136.sh
@@ -23,8 +23,8 @@ FT-BING/5.15.sh
 FT-BING/5.4.147.sh
 FT-BING/5.4.191oneplus.sh
 FT-BING/5.4.210-ColorOS.sh
-FT-BING/5.4.233.sh
 FT-BING/5.4.233-ColorOS.sh
+FT-BING/5.4.233.sh
 FT-BING/5.4.233oneplus.sh
 FT-BING/5.4.61.sh
 FT-BING/5.4.86.sh
@@ -71,3 +71,11 @@ RT-HOOK/6.1.sh
 RT-HOOK/6.12.sh
 RT-HOOK/6.18.sh
 RT-HOOK/6.6.sh
+TWT/TwTLoaderv1.56.sh
+Wind/Wind-5.10.sh
+Wind/Wind-5.15.sh
+Wind/Wind-6.1.sh
+Wind/Wind-6.12.sh
+Wind/Wind-6.18.sh
+Wind/Wind-6.6.sh
+Wind/Wind-drivers-Loading.sh
