@@ -112,6 +112,20 @@
       }
     },
     {
+      "id": "PARADISE-V2",
+      "displayName": "PARADISE v2",
+      "description": "Paradise Driver v2 (HWBP) memory bridge",
+      "executionType": "ko.sh",
+      "stagedPath": "/data/local/tmp",
+      "kernels": {
+        "5.10": "Paradise-v2/5.10.ko.sh",
+        "5.15": "Paradise-v2/5.15.ko.sh",
+        "6.1": "Paradise-v2/6.1.ko.sh",
+        "6.6": "Paradise-v2/6.6.ko.sh",
+        "6.12": "Paradise-v2/6.12.ko.sh"
+      }
+    },
+    {
       "id": "PARADISE-V3",
       "displayName": "PARADISE v3",
       "description": "Paradise v3 All-in-One ARM64 Kernel Loader (5.10 - 6.18)",

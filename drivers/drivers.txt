@@ -39,6 +39,11 @@ Paradise/5.15.ko.sh
 Paradise/6.1.ko.sh
 Paradise/6.12.ko.sh
 Paradise/6.6.ko.sh
+Paradise-v2/5.10.ko.sh
+Paradise-v2/5.15.ko.sh
+Paradise-v2/6.1.ko.sh
+Paradise-v2/6.12.ko.sh
+Paradise-v2/6.6.ko.sh
 Paradise-v3/paradise-loader.sh
 RT-DEV/4.14.117.sh
 RT-DEV/4.14.180.sh
