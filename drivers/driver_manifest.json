@@ -124,7 +124,7 @@
     {
       "id": "TWT",
       "displayName": "TWT Driver",
-      "description": "TWT HWBP Kernel Loader",
+      "description": "TWT HWBP Universal Kernel Auto-Loader (4.14 - 6.6)",
       "executionType": "sh",
       "stagedPath": "/data/local/tmp",
       "kernels": {
